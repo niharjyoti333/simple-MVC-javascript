@@ -1,0 +1,23 @@
+/*******************************************************************************
+ * Filename     :     form.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the form module
+ * Dependencies :     variables:global
+ ******************************************************************************/
+
+/*******************************************************************************
+ * Default
+ ******************************************************************************/
+.form {
+  margin-bottom: 15px;
+  position: relative;
+
+  &--longInstruction {
+    @include font-size(12px);
+    color: $gray-dark;
+  }
+}
+.form--submit {
+  width: 250px;
+  padding: 5px 52px;
+}

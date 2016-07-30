@@ -1,0 +1,27 @@
+{
+  "name": "myflightapp",
+  "version": "0.0.0",
+  "description": "search the flight",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "webpack": "~1.13.1",
+    "node-sass": "~3.8.0",
+    "sass-loader": "~4.0.0",
+    "es6-promise": "~3.2.1",
+    "css-loader": "~0.18.0",
+    "extract-text-webpack-plugin": "~1.0.1",
+    "style-loader": "~0.13.1",
+    "requirejs": "~2.2.0"
+  },
+  "dependencies": {
+    "css-loader": "~0.23.1"
+  }
+}

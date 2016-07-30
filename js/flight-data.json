@@ -1,0 +1,188 @@
+[
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 186,
+    "origin": "GHY",
+    "availableSeats": 116,
+    "destination": "DEL",
+    "price": 6733,
+    "departure": "2016-06-18T10:59:00.000Z",
+    "arrival": "2016-01-18T13:32:00.000Z",
+    "duration": "2h 33m",
+    "operationalDays": [
+      0,
+      2
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 251,
+    "origin": "PNQ",
+    "availableSeats": 53,
+    "destination": "DEL",
+    "price": 8713,
+    "departure": "2016-01-01T08:17:00.000Z",
+    "arrival": "2016-01-01T10:54:00.000Z",
+    "duration": "2h 37m",
+    "operationalDays": [
+      7
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 224,
+    "origin": "PNQ",
+    "availableSeats": 87,
+    "destination": "DEL",
+    "price": 5996,
+    "departure": "2016-01-01T03:09:00.000Z",
+    "arrival": "2016-01-01T05:25:00.000Z",
+    "duration": "2h 16m",
+    "operationalDays": [
+      7
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 192,
+    "origin": "PNQ",
+    "availableSeats": 28,
+    "destination": "DEL",
+    "price": 3652,
+    "departure": "2016-01-01T09:30:00.000Z",
+    "arrival": "2016-01-01T11:31:00.000Z",
+    "duration": "2h 1m",
+    "operationalDays": [
+      7
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 241,
+    "origin": "PNQ",
+    "availableSeats": 29,
+    "destination": "DEL",
+    "price": 7413,
+    "departure": "2016-01-01T13:55:00.000Z",
+    "arrival": "2016-01-01T15:43:00.000Z",
+    "duration": "1h 48m",
+    "operationalDays": [
+      7
+    ]
+  },
+  {
+    "airline": "Indigo",
+    "airlineCode": "6E",
+    "flightNumber": 240,
+    "origin": "PNQ",
+    "availableSeats": 10,
+    "destination": "DEL",
+    "price": 4843,
+    "departure": "2016-01-01T05:47:00.000Z",
+    "arrival": "2016-01-01T07:35:00.000Z",
+    "duration": "1h 48m",
+    "operationalDays": [
+      7
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 167,
+    "origin": "PNQ",
+    "availableSeats": 126,
+    "destination": "DEL",
+    "price": 2930,
+    "departure": "2016-01-01T12:10:00.000Z",
+    "arrival": "2016-01-01T14:00:00.000Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      1,
+      2
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 167,
+    "origin": "DEL",
+    "availableSeats": 126,
+    "destination": "PNQ",
+    "price": 2940,
+    "departure": "2016-01-01T12:10:00.000Z",
+    "arrival": "2016-01-01T14:00:00.000Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      1,
+      2
+    ]
+  },
+  {
+    "airline": "spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 107,
+    "origin": "DEL",
+    "availableSeats": 126,
+    "destination": "PNQ",
+    "price": 2140,
+    "departure": "2016-01-01T12:10:00.000Z",
+    "arrival": "2016-01-01T14:00:00.000Z",
+    "duration": "1h 50m",
+    "operationalDays": [
+      1,
+      2
+    ]
+  },
+  {
+    "airline": "Spice Jet",
+    "airlineCode": "SG",
+    "flightNumber": 254,
+    "origin": "PNQ",
+    "availableSeats": 33,
+    "destination": "DEL",
+    "price": 4191,
+    "departure": "2016-01-01T10:01:00.000Z",
+    "arrival": "2016-01-01T12:35:00.000Z",
+    "duration": "2h 34m",
+    "operationalDays": [
+      7
+    ]
+  },
+  {
+    "airline": "Jet Airways",
+    "airlineCode": "9W",
+    "flightNumber": 144,
+    "origin": "PNQ",
+    "availableSeats": 45,
+    "destination": "DEL",
+    "price": 5788,
+    "departure": "2016-01-01T06:09:00.000Z",
+    "arrival": "2016-01-01T09:06:00.000Z",
+    "duration": "2h 57m",
+    "operationalDays": [
+      3,
+      4
+    ]
+  },
+  {
+    "airline": "Air India",
+    "airlineCode": "AI",
+    "flightNumber": 193,
+    "origin": "PNQ",
+    "availableSeats": 71,
+    "destination": "DEL",
+    "price": 7460,
+    "departure": "2016-01-01T11:03:00.000Z",
+    "arrival": "2016-01-01T12:57:00.000Z",
+    "duration": "1h 54m",
+    "operationalDays": [
+      6,
+      5
+    ]
+  }
+]

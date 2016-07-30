@@ -1,0 +1,21 @@
+/*******************************************************************************
+ * Filename     :     text.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the text format
+ * Dependencies :     variables:global
+ ******************************************************************************/
+@mixin text-align($align) {
+  text-align: $align;
+}
+.text-align--center{
+  @include text-align(center);
+}
+.text-align--right{
+  @include text-align(right);
+}
+.text-color--white{
+  color:$white-base;
+}
+.text-font--bold{
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+/*******************************************************************************
+ * Filename     :     form.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the form module
+ * Dependencies :     variables:global
+ ******************************************************************************/
+.result-container {
+  background-color: $white-base;
+  height:92vh;
+  overflow: auto;
+}
+@media #{$breakpoint-medium} {
+  .result-container {
+    position: absolute;
+  }
+}

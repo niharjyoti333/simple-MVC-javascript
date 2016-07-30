@@ -1,0 +1,45 @@
+/*******************************************************************************
+ * Filename     :     normalize.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the common css
+ * Dependencies :     variables:global
+ ******************************************************************************/
+$font-family-base: "Targetica","Helvetica Neue","Helvetica","Arial",sans-serif;
+$body-bg:               #503933 !default;
+$text-color:            #333 !default;
+html{
+  font-family: $font-family-base;
+  @include font-size(16px);
+}
+body {
+  line-height: 1.4286;
+  color: $text-color;
+  background-color: $body-bg;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 0 125px;
+}
+.right {
+  float: right !important;
+}
+.left{
+  float: left !important;
+}
+.hide{
+  display:none !important;
+}
+.show{
+  display:block !important;
+}
+.border--bottom{
+  border-bottom: 1px solid $gray-dark;
+  height:65px;
+}
+
+.padding-left1em{
+  padding-left: 1em;
+}
+.error{
+  background-color: $orange;
+  color: $white-base;
+}

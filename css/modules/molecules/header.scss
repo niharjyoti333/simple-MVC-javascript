@@ -1,0 +1,35 @@
+/*******************************************************************************
+ * Filename     :     header.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the header molecules
+ * Dependencies :     variables:global
+ ******************************************************************************/
+$header-hight: 50px;
+.header{
+  display: flex;
+  padding: 0 10px;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  height: $header-hight;
+  color: $white-base;
+  background-color: $gray-dark;
+  img{
+    float:left;
+  }
+  h3{
+    margin: 0;
+  }
+}
+.header__layout{
+  max-width:$max-width;
+  position: relative;
+  margin:0 auto;
+  width: 100%;
+}
+.header__text--small{
+  clear: both;
+  top: -6px;
+  @include font-size(12px);
+  position: relative;
+}

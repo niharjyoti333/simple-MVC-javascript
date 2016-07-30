@@ -1,0 +1,36 @@
+/*******************************************************************************
+ * Filename     :     style.scss
+ * Author       :     nihar jyoti sarma
+ * Description  :     Compiles all SCSS files together
+ ******************************************************************************/
+
+/****************************************************************************
+* Atoms
+****************************************************************************/
+@import "modules/atom/variable";
+@import "modules/atom/font";
+@import "modules/atom/mixin";
+@import "modules/atom/grid";
+@import "modules/atom/button";
+@import "modules/atom/text";
+@import "modules/atom/form";
+
+/****************************************************************************
+* Molecules
+****************************************************************************/
+@import "modules/molecules/header";
+@import "modules/molecules/form_groups";
+@import "modules/molecules/result";
+
+
+/****************************************************************************
+* organism
+****************************************************************************/
+@import "modules/organisms/search_result";
+
+/*******************************************************************************
+ * Base
+ * - scope: global
+ * - note: required by consumer
+ ******************************************************************************/
+@import "base/normalize";

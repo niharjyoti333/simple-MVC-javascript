@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My flight App</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">
+    <div class="header__layout">
+        <img src="images/logo.png" width="40px" height="40px">
+        <h3>FLIGHT</h3>
+        <span class="header__text--small">search engine</span>
+    </div>
+</div>
+<div class="main-container">
+    <div class="main-row">
+    <div class="search-container main-col-lg-4 main-col-xs-12 main-col-md-4">
+        <div class="btn--wrap">
+            <a href="#" class="btn btn--active js-onetwo-way btn-padding" id="one-way">One Way</a>
+            <a href="#" class="btn btn--disabled js-onetwo-way btn-padding" id="two-way">Two Way</a>
+        </div>
+        <form class="form flight-search  flight-search--full js-oneWayForm" name="oneWayForm" method="post">
+            <div class="form--group">
+                <input type="text" value= ""  list="origin-data" class="form--controller js--origin" name="origin" id="origin" placeholder="Enter origin" required>
+                <datalist id="origin-data">
+                    <option value="pune-PNQ">
+                    <option value="delhi-DEL">
+                    <option value="bangalore-BNG">
+                    <option value="guwahati-GHY">
+                </datalist>
+            </div>
+            <div class="form--group">
+                <input type="text" value= "" list="destination-data" class="form--controller js--destination" name="destination" id="destination" placeholder="Enter destination" required>
+                <datalist id="destination-data">
+                    <option value="pune-PNQ">
+                    <option value="delhi-DEL">
+                    <option value="bangalore-BNG">
+                    <option value="guwahati-GHY">
+                </datalist>
+            </div>
+            <div class="form--group">
+                <input type="text" value= "" class="form--controller js--date" name="departure" id="departure" placeholder="Depart Date(eg:06/19/2016 month/day/year)" required>
+            </div>
+            <div class="form--group return-date" style="display: none;">
+                <input type="text" value= "" class="form--controller js--return-date" name="return" placeholder="Return Date(eg:06/19/2016 month/day/year)" required>
+            </div>
+            <div class="form--group">
+                <input type="text" value= "" class="form--controller js--passenger" name="passenger" id="passenger" placeholder="Passenger" required>
+                <div class="js-adult-child" style="display: none;">
+                    <div class="box">
+                        <div>
+                            <span class="text-color--white">Adult:</span>
+                            <button id="adult-down" class="js-updown btn btn--primary btn--round">-</button>
+                            <input id="adult" value="0" type="text" style="width:25px"/>
+                            <button id="adult-up" class="js-updown btn btn--primary btn--round">+</button>
+                        </div>
+                        <div>
+                            <span class="text-color--white">children:</span>
+                            <button id="child-down" class="js-updown btn btn--primary btn--round">-</button>
+                            <input id="child" value="0" type="text" style="width:25px"/>
+                            <button id="child-up" class="js-updown btn btn--primary btn--round">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form--group text-align--center">
+                <a href="#" class="btn btn--submit js-search--submit form--submit">Search</a>
+            </div>
+
+        </form>
+    </div>
+    <div class="result-container main-col-lg-8 main-col-xs-12 main-col-md-8">
+        <h3 class="text-align--center">Flight Search Engine</h3>
+        <div class="result__header js-result--header"></div>
+        <div class="result__show js-result--show">
+            <div class="result__layout result--selected js-combineWay hide">
+                <div class="result--price"></div>
+                <div class="result--description">
+                    <div class="main-col-md-3 main-col-sm-3 main-col-xs-6 js-departWay"></div>
+                    <div class="main-col-md-3 main-col-sm-3 main-col-xs-6 js-arrivalWay"></div>
+                    <div class="main-col-md-6 main-col-sm-6 main-col-xs-12"><a href="#" class="btn btn--submit right">Book this flight</a></div>
+                </div>
+            </div>
+            <div class="js-no-return"></div>
+            <div class="js-remove--hide hide">
+                <div class="main-col-md-6 main-col-sm-6 main-col-xs-6"><h3 class="text-align--center js-depart">Depart on</h3><div class="js-result--oneWay"></div></div>
+                <div class="main-col-md-6 main-col-sm-6 main-col-xs-6"><h3 class="text-align--center js-return">Return on</h3><div class="js-result--twoWay"></div> </div>
+            </div>
+           </div>
+    </div>
+    </div>
+</div>
+<script type="text/javascript" src="my-flight-app.js"></script>
+</body>
+</html>

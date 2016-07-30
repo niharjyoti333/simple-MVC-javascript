@@ -1,0 +1,30 @@
+/*******************************************************************************
+ * Filename     :     result.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the result molecules
+ * Dependencies :     variables:global
+ ******************************************************************************/
+$result-max-width: 676px;
+.result__header{
+  max-width: $result-max-width;
+}
+.result__show {
+  max-width: $result-max-width;
+}
+.result__layout{
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 5px;
+  width: 100%;
+}
+.result--price{
+  padding: 10px 0 0 1em;
+  font-weight: bold;
+}
+.result--selected{
+  background-color: $gray-lighter;
+}
+.result--pointer{
+  cursor: pointer;
+}

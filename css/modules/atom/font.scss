@@ -1,0 +1,21 @@
+/*******************************************************************************
+ * Filename     :     font.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the font size
+ * Dependencies :     variables:global
+ ******************************************************************************/
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+.font16{
+  @include font-size(16px)
+}
+
+.font14{
+  @include font-size(14px)
+}
+
+.font12{
+  @include font-size(12px)
+}

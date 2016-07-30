@@ -1,0 +1,102 @@
+
+/*******************************************************************************
+ * Filename     :     grid.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the grid system
+ * Dependencies :     variables:global
+ ******************************************************************************/
+
+.main-container {
+  margin: 0 auto;
+  max-width: $max-width;
+}
+.main-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  height: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+%clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  @include border-box;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper, .row {
+  @extend %clearfix;
+}
+
+[class*='main-col-'] {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px;
+}
+@media #{$breakpoint-xtra-small} {
+  .wrapper {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-columns {
+    .main-col-xs-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
+  }
+}
+@media #{$breakpoint-medium} {
+  .wrapper {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-columns {
+    .main-col-md-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
+  }
+}
+@media #{$breakpoint-small} {
+  .wrapper {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-columns {
+    .main-col-sm-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
+  }
+}

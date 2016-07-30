@@ -1,0 +1,47 @@
+/*******************************************************************************
+ * Filename     :     button.scss
+ * Author       :     Nihar Jyoti sarma
+ * Description  :     Contains the button activity
+ * Dependencies :     variables:global
+ ******************************************************************************/
+.btn {
+  color:$white-base;
+  text-decoration:none;
+  padding:5px;
+  border-radius:3px;
+  font-family: 'Poiret One', cursive;
+  @include font-size(12px);
+}
+.btn--round{
+  border-radius: 50%;
+  padding: 5px;
+}
+.btn--wrap{
+  margin:10px;
+}
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+.btn--active {
+  @include button-bg($gray-dark);
+}
+
+.btn--disabled {
+  @include button-bg($black-light);
+}
+.btn--submit {
+  @include button-bg($orange);
+}
+.btn--primary {
+  @include button-bg($orange);
+}
+.btn-padding{
+  padding: 5px 20px;
+}
